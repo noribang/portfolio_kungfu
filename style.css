@@ -1,0 +1,145 @@
+html, body, .container-fluid {
+	position: relative;
+	height: 100%;
+}
+
+/*.navbar-collapse {
+	height: 30px;
+}*/
+.navbar {
+	border: 3px dashed red;
+	opacity: 0.7;/*NAVBAR BACKGROUND*/
+	/*min-height: 20px !important;*//*60px SEEMS TO DEFAULT*/
+}
+
+/*.navbar, 
+.navbar-inverse, 
+.navbar-static-top {
+	height: 2px;
+}*/
+
+/*.collapse, 
+.navbar-collapse {
+	height: 2px;
+}*/
+
+
+.navbar-brand,
+.navbar-nav li a {
+	line-height: 20px;
+	height: 1px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.container-fluid {
+	opacity: 1.0;/*NAVBAR TEXT*/
+	/*height: 10px;*/
+}
+
+.jumbotron {
+	/*border: 3px dashed blue;*/
+	height: 100%;
+	padding-top: 150px;
+	background-image:url('http://www.tasteofcinema.com/wp-content/uploads/2014/10/The-Invincible-Armour.jpg');
+	background-repeat: no-repeat;
+  	background-size: cover;
+  	margin-top: 0px;
+}
+
+/*.jumbotron a {
+	color: yellow;
+}*/
+
+.jumbotron .container {
+	position: relative;
+	/*top: 100px;*/
+}
+
+.jumbotron h1 {
+	color: yellow;
+	text-shadow: 1px 1px #000;
+} 
+
+#about {
+	height: 40%;
+	padding-top: 55px;
+	height: 100%;
+}
+
+.projects {
+	border: 3px dashed red;
+	background-color: #428456;
+	height: 100%;
+	padding-top: 55px;
+}
+
+.thumbnail {
+	height: 200px;
+	width: 200px;
+}
+
+.row .thumbnail {
+
+	border: 0; /*GETS RID OF DEFAULT BORDER WITH ROUNDED CORNERS*/
+	box-shadow: 0;/*GETS RID OF DEFAULT BORDER WITH ROUNDED CORNERS*/
+			      /*DOES NOT SEEM TO DO ANYTHING*/
+	border-radius: 0;/*GETS RID OF DEFAULT BORDER WITH ROUNDED CORNERS*/
+					 /*DOES NOT SEEM TO DO ANYTHING*/
+	/*USE BELOW FOR TIGHT BLACK THIN BORDER AROUND IMAGE*/
+/*	border: solid 1px #000;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;*/
+}
+
+.col-sm-4 {
+/*	border: 1px dashed red;*/
+}
+
+.img {
+	margin: 0 auto;
+}
+
+#about h2 {
+/*	border: 3px dashed red;*/
+/*	font-size: 60px;*/
+/*	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;*/
+}
+
+#story {
+/*	border: 3px dashed red;*/
+}
+
+.contact {
+	border: dashed 3px purple;
+	height: 90%;
+	padding-top: 55px;
+	/*background-color: #b2a6a6;*/
+}
+
+.social a {
+	border: dashed 1px red;
+	margin-left:10px;
+	margin-right:10px;
+	color: orange;
+}
+
+.footer {
+	border: dashed 2px red;
+	height: 10%;
+	background-color: #443e3e;
+	
+}
+
+.footer p {
+/*	border: dashed 1px blue;*/
+	color: #fff;
+	padding-top: 12px;
+	padding-bottom: 12px;
+/*	line-height:50px;*//*ALSO WORKS WHEN LINE-HEIGHT EQUALS HEIGHT*/
+}
