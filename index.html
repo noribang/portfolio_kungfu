@@ -1,143 +1,61 @@
 <!DOCTYPE html>
-<html lang="en ko" >
-	<head>
-		<title>PORTFOLIO D</title>
-			<meta charset="utf-8">
-			<!--ENSURE PROPER ZOOMING AND RENDERING-->
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--DECLARE ENGLISH AS PRIMARY LANGUAGES-->
+<html lang="en">
+<!--OR DECLARE KOREAN AS PRIMARY LANGUAGES-->
+<!--<html leng="ko">-->
+<head>
+	<title>PORTFOLIO-NEW</title>
+	<!--PROPER CHARACTER SET-->
+	<meta charset="utf-8">
+	<!--PROPER RENDERING AND ZOOMING-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="">
 
-			<!-- Latest compiled and minified CSS -->
-			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
+<body>
+	<!--**NAVBAR SECTION**-->
+	<!--"navbar-static-top" GIVES "0" BORDER RADIUS-->
+	<nav class="navbar navbar-inverse navbar-static-top">
+	  <div class="container-fluid">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">HK Portfolio</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">Home</a></li>
+	        <li class="dropdown">
+	          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="#">Page 1-1</a></li>
+	            <li><a href="#">Page 1-2</a></li>
+	            <li><a href="#">Page 1-3</a></li>
+	          </ul>
+	        </li>
+	        <li><a href="#">Page 2</a></li>
+	        <li><a href="#">Page 3</a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+	        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+	        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
 
-			<!-- ADD FONT AWESOME -->
-			<script src="https://use.fontawesome.com/0329938706.js"></script>
 
-			<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
-			
-	</head>
-	<body data-spy="scroll" data-target=".navbar" data-offset="50">
-		<!--**NAVBAR SECTION**-->
-		<!--"navbar-static-top" GIVES "0" BORDER RADIUS-->
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid" id="top">
-				<div class="navbar-header">
-					<!--FAFA BAR SHOWS UP WHEN BROWSER SIZE IS REDUCED OR ON MOBILE DEVICE-->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"><!--data-target="#myNavbar" SHOWS <ul><li> WHEN COLLAPSED NAVBAR-->
-						<span class="icon-bar"></span><!--CREATES FIRST LINE OF FA FA BAR WHEN NAVBAR IS COLLAPSED-->
-						<span class="icon-bar"></span><!--CREATES SECOND LINE OF FA FA BAR WHEN NAVBAR IS COLLAPSED-->
-						<span class="icon-bar"></span><!--CREATES THIRD LINE OF FA FA BAR WHEN NAVBAR IS COLLAPSED-->
-					</button>
-					<!--REMAINS AT FAR LEFT OF NAVBAR WHETHER COLLAPSED OR NOT-->
-					<a class="navbar-brand" href="#">portfolio</a>
-				</div>
-				<div class="collapse navbar-collapse" id="myNavbar">
-					<ul class="nav navbar-nav"><!--"nav" GETS RID OF BULLETS FOR <li>-->
-											   <!--"navbar-nav" PUTS ALL <li> IN ONE LINE-->
-						<li><a href="#home">home</a></li>
-						<li><a href="#about">about</a></li>
-						<li class="active"><a href="#projects">projects</a></li>
-						<li><a href="#contact">contact</a></li>
-					</ul>
-				</div>	
-			</div><!--END "container-fluid"-->
-		</nav><!--END navbar navbar-inverse navbar-static-top-->
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-		<!--**JUMBOTRON SECTION**-->
-		<div id="home" class="jumbotron">
-			<div class="container">
-				<h1 class="text-center" lang="ko">제 이름이 김훈 입니다!!!</h1>
-				<h1 class="text-center" lang="ko">Front End Developer</h1>
-				<p class="text-center"></p>
-				<p class="text-center" ><a href="#"></a></p>
-			</div>
-		</div>
-
-		<!--**ABOUT SECTION**-->
-		<div id="about" class="container">
-			<div class="row">
-				<div class="col-sm-4"><h2>About me...</h2></div>
-				<div class="col-sm-4" id="story"><p>My name is Hoon Kim (Korean 김훈) and I am an aspiring Front-end developer. I grew up in the city of Chicago just 20 minutes from Wrigley Field. I earned a degree in architecure because I wanted to be like the great Spanish architect Antoni Gaudi. Today I hack away at HTML, CSS, Javascript, Jquery, Bootstrap etc. because I want to be a professional software developer.</p></div>
-				<div class="col-sm-4"></div>
-			</div>
-			<div class="row">
-				<div class="col-sm-4"></div>
-				<div class="col-sm-4" id="story"><p></p></div>
-				<div class="col-sm-4"></div>
-			</div>
-		</div>
-
-		<!--**PROJECTS SECTION**-->
-		<div id="projects" class="projects">
-	        <div class="container">
-	            <h2>Projects</h2>
-	            <div class="row">
-	                <div class="col-xs-4">
-	                    <div class="thumbnail center-block">
-	                    	<a href="http://www.nytimes.com"><p>Project 1</p>
-	                        <img src="http://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_de_noche.jpg"></a>
-	                    </div>
-	                    <div class="thumbnail center-block">
-	                    	<a href="http://www.nytimes.com"><p>Project 4</p>
-	                        <img src="http://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_de_noche.jpg"></a>
-	                    </div>
-	                </div>
-	                <div class="col-xs-4">
-	                    <div class="thumbnail center-block">
-	                    	<a href="http://www.nytimes.com"><p>Project 2</p>
-	                        <img src="http://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_de_noche.jpg"></a>
-	                    </div>
-	                    <div class="thumbnail center-block">
-	                    	<a href="http://www.nytimes.com"><p>Project 5</p>
-	                        <img src="http://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_de_noche.jpg"></a>
-	                    </div>
-	                </div>
-	                <div class="col-xs-4">
-	                    <div class="thumbnail center-block">
-	                    	<a href="http://www.nytimes.com"><p>Project 3</p>
-	                        <img src="http://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_de_noche.jpg"></a>
-	                    </div>
-	                    <div class="thumbnail center-block">
-	                    	<a href="http://www.nytimes.com"><p>Project 6</p>
-	                        <img src="http://upload.wikimedia.org/wikipedia/commons/1/18/Hong_Kong_de_noche.jpg"></a>
-	                    </div>
-	                </div>
-	            </div><!--class="row"-->     
-	        </div><!--class="container"-->
-    	</div><!--class="projects"-->
-		<!--**END PROJECTS SECTION**-->
-
-		<!--**CONTACT SECTION**-->
-		<div id="contact" class="contact">
-			<div class="container-fluid">
-				<h2 class="text-center">Contact</h2>
-				<p class="text-center">Contact me via email at xxx@gmail.com</p>
-				<p class="text-center">or</p>
-					<div class="social text-center">
-						<a href="#"><i class="fa fa-github fa-2x" aria-hidden="true" id="github"></i></a>
-						<a href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true" id="github"></i></a>
-						<a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true" id="github"></i></a>
-						<a href="#"><i class="fa fa-fire fa-2x" aria-hidden="true" id="github"></i></a>
-					</div>
-			</div>	
-		</div>
-		<!--**END CONTACT SECTION**-->
-
-		<!--**FOOTER SECTION**-->
-		<div class="footer">
-			<div class="container-fluid">
-				<p class="text-center">Web page created by Hoon Kim</p>
-			</div>
-		</div>
-		<!--**END FOOTER SECTION**-->
-
-		<!--**REFERENCE JS -->
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-		<!-- Latest compiled JavaScript -->
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-		<script type="text/javascript" src="script.js"></script>
-	</body>
+	<script type="text/javascript" src=""></script>
+</body>
 </html>
